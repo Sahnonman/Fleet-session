@@ -1,0 +1,214 @@
+Here is the updated English code for the **"Safety Course & Fleet Guidelines"** for Hamad Al-Raqib & Sons Trading Co. I have added new slides covering traffic violations, daily checklists, idling rules, and safe driving habits in a clean, professional, and easy-to-read layout.
+
+```html
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Manual 2026 - Al-Raqib Furniture</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/white.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        
+        :root {
+            --brand-navy: #002147; 
+            --brand-gold: #c5a059; 
+            --light-bg: #fdfdfd;
+            --success-green: #28a745;
+        }
+
+        body, .reveal { font-family: 'Montserrat', sans-serif; background-color: var(--light-bg); }
+        .reveal h1, .reveal h2, .reveal h3 { font-family: 'Montserrat', sans-serif; color: var(--brand-navy); font-weight: 700; text-transform: uppercase; }
+        
+        .accent-gold { color: var(--brand-gold); }
+        .accent-navy { color: var(--brand-navy); }
+        .whatsapp-green { color: #25D366; }
+
+        .grid-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: left; font-size: 0.65em; }
+        .slide-card { 
+            background: #fff; 
+            padding: 15px; 
+            border-radius: 10px; 
+            border-bottom: 3px solid var(--brand-gold);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .check-container {
+            background: linear-gradient(135deg, var(--brand-gold) 0%, #e5c17d 100%);
+            border-radius: 12px;
+            padding: 25px;
+            display: inline-block;
+            min-width: 250px;
+            color: var(--brand-navy);
+            font-weight: bold;
+        }
+
+        .alert-box {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            font-size: 0.6em;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .closing-box {
+            background-color: var(--brand-navy);
+            padding: 40px;
+            border-radius: 20px;
+            border: 2px solid var(--brand-gold);
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section>
+                <div style="margin-bottom: 20px;">
+                    <i class="fas fa-bus-alt fa-3x accent-navy"></i>
+                    <i class="fas fa-clipboard-check fa-4x accent-gold"></i>
+                </div>
+                <h2>Fleet Safety Manual</h2>
+                <h3 style="color: var(--brand-gold); font-size: 0.8em;">Hamad Al-Raqib & Sons Trading Co.</h3>
+                <hr style="width:40%; border: 0.5px solid var(--brand-gold); opacity: 0.5;">
+                <p style="font-size: 0.7em; color: var(--brand-navy);">Professional Driving & Maintenance Guidelines 2026</p>
+            </section>
+
+            <section>
+                <h3>Performance Review (2024 VS 2025)</h3>
+                <div style="position: relative; height:400px; width:100%; margin: auto;">
+                    <canvas id="performanceChart"></canvas>
+                </div>
+            </section>
+
+            <section>
+                <h3>Avoiding Traffic Violations</h3>
+                <div class="grid-layout">
+                    <div class="slide-card">
+                        <i class="fas fa-tachometer-alt accent-gold"></i> <strong>Speeding:</strong> Always stick to the designated road speed limits.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-clock accent-gold"></i> <strong>Prohibited Times:</strong> Strictly avoid entry during "No-Entry" peak hours.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-shuttle-van accent-gold"></i> <strong>Overtaking:</strong> Do not overtake other vehicles recklessly or from the wrong side.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-arrows-alt-h accent-gold"></i> <strong>Safety Distance:</strong> Maintain a safe distance between you and the vehicle in front.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-road accent-gold"></i> <strong>Lane Discipline:</strong> Commit to your lane and avoid sudden lane changes.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-check-circle accent-gold"></i> <strong>Professionalism:</strong> Your compliance avoids Saher fines and penalties.
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Daily Vehicle Checklist</h3>
+                <p style="font-size: 0.5em;">Prevent safety equipment violations through proactive checks:</p>
+                <div class="grid-layout" style="font-size: 0.6em;">
+                    <div class="slide-card"><i class="fas fa-bolt accent-gold"></i> <strong>Electrical:</strong> Ensure all dashboard lights and systems work.</div>
+                    <div class="slide-card"><i class="fas fa-stop-circle accent-gold"></i> <strong>Brake Lights:</strong> Confirm they are visible and functional.</div>
+                    <div class="slide-card"><i class="fas fa-dot-circle accent-gold"></i> <strong>Tyres:</strong> Check pressure and overall tyre health daily.</div>
+                    <div class="slide-card"><i class="fas fa-broom accent-gold"></i> <strong>Cleanliness:</strong> Keep the vehicle interior and exterior clean at all times.</div>
+                </div>
+                <div class="alert-box">
+                    <i class="fab fa-whatsapp whatsapp-green"></i> <strong>REPORTING DEFECTS:</strong> If any fault is found, <strong>WhatsApp your Supervisor immediately</strong> to arrange repairs before leaving.
+                </div>
+            </section>
+
+            <section>
+                <h3>Fuel Efficiency & Engine Care</h3>
+                <div class="grid-layout">
+                    <div class="slide-card">
+                        <i class="fas fa-hourglass-half accent-navy"></i> 
+                        <strong>30-Minute Rule:</strong> Never leave the engine running for more than 30 minutes while waiting for a customer.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-power-off accent-navy"></i> 
+                        <strong>Loading/Unloading:</strong> Turn off the engine completely during loading or unloading operations.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-feather-alt accent-navy"></i> 
+                        <strong>Smooth Driving:</strong> Avoid harsh acceleration and hard braking to save fuel and engine life.
+                    </div>
+                    <div class="slide-card">
+                        <i class="fas fa-users-cog accent-navy"></i> 
+                        <strong>Team Safety:</strong> Safe driving protects you, your team, and the company assets.
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Rewards for Excellence (Q4 2025)</h3>
+                <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin: 20px 0;">
+                    <div class="check-container">
+                        <span style="font-size: 1.4em;">500 SAR</span>
+                        <div style="font-size: 0.4em;">Performance Reward</div>
+                    </div>
+                    <i class="fas fa-trophy fa-4x accent-gold"></i>
+                </div>
+                <div style="font-size: 0.6em; text-align: left; background: #fff; padding: 15px; border-radius: 10px; border-left: 4px solid var(--brand-gold);">
+                    <i class="fas fa-star accent-gold"></i> <strong>Winner Requirements:</strong><br>
+                    - Zero traffic violations & Zero accidents.<br>
+                    - Full commitment to daily checklists and cleanliness.<br>
+                    - Strict adherence to engine idling rules (30m max / off during loading).
+                </div>
+            </section>
+
+            <section>
+                <div class="closing-box">
+                    <h2 style="color:white !important;">Your Safety is Our Wealth</h2>
+                    <hr style="width:30%; border: 0.5px solid var(--brand-gold);">
+                    <p style="font-size:1em; font-style: italic;">"Drive safe for yourself, your team, and Al-Raqib."</p>
+                    <div style="margin-top: 30px; font-size: 0.7em;">Thank you for your professionalism</div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <script>
+        Reveal.initialize({ hash: true, center: true, transition: 'slide' });
+
+        function initChart() {
+            const ctx = document.getElementById('performanceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                plugins: [ChartDataLabels],
+                data: {
+                    labels: ['Accidents', 'Violations'],
+                    datasets: [
+                        { label: '2024', data: [12, 167], backgroundColor: '#d1d1d1', borderRadius: 5 },
+                        { label: '2025', data: [8, 134], backgroundColor: '#c5a059', borderRadius: 5 }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        datalabels: { color: '#002147', anchor: 'end', align: 'top', font: { weight: 'bold', size: 14 } }
+                    },
+                    scales: { y: { beginAtZero: true, grid: { display: false } }, x: { grid: { display: false } } }
+                }
+            });
+        }
+        window.addEventListener('load', () => { setTimeout(initChart, 500); });
+    </script>
+</body>
+</html>
+
+```
